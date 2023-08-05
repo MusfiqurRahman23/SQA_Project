@@ -1,0 +1,265 @@
+{
+  "id": "74c4574b-ac3b-4d0a-a334-14c2b0fe80ca",
+  "version": "2.0",
+  "name": "TestSelenium",
+  "url": "https://www.foodpanda.com.bd",
+  "tests": [{
+    "id": "0ba17fd9-8537-4d3a-a3b5-a3dcd58c8da4",
+    "name": "check Search module",
+    "commands": [{
+      "id": "4be2d6ff-8a01-4097-95ad-08f3025f8087",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "135ec07c-0327-473c-880d-19b0ba930b3b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccd91b62-fa3c-4a6e-9852-e6c3c3634804",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,107.19999694824219)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71c283ca-307b-49c4-b9b7-1cda59fecde5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,752)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e26ff87-ae48-43b9-b0ca-2067afb0c09e",
+      "comment": "",
+      "command": "click",
+      "target": "id=delivery-information-postal-index",
+      "targets": [
+        ["id=delivery-information-postal-index", "id"],
+        ["css=#delivery-information-postal-index", "css:finder"],
+        ["xpath=//input[@id='delivery-information-postal-index']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8747fb8a-3fdf-4a2c-ace2-7915d9de06f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=delivery-information-postal-index",
+      "targets": [
+        ["id=delivery-information-postal-index", "id"],
+        ["css=#delivery-information-postal-index", "css:finder"],
+        ["xpath=//input[@id='delivery-information-postal-index']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "emon123@gmail.com"
+    }, {
+      "id": "9dce54a4-96ae-4d36-b9ab-3fc0a49c73d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(1)",
+      "targets": [
+        ["css=.button:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Delivery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30ed49e0-725d-4e25-94f6-f30c308fa261",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style > div:nth-child(2)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='map-id']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb42ffc4-bdba-476e-bb80-0483397eedce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style > div:nth-child(2)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='map-id']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e101fa3-5b81-4543-ad85-1ab380b3c567",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a img",
+      "targets": [
+        ["css=a img", "css:finder"],
+        ["xpath=//img[@alt='Google']", "xpath:img"],
+        ["xpath=//div[@id='map-id']/div/div/div[14]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31789d79-1c4d-4a06-b393-8476508cd0c3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=a img",
+      "targets": [
+        ["css=a img", "css:finder"],
+        ["xpath=//img[@alt='Google']", "xpath:img"],
+        ["xpath=//div[@id='map-id']/div/div/div[14]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12023e9c-d9f7-4f65-8ed5-25074c62b749",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style > div:nth-child(2)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='map-id']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63d18e9f-5401-4218-9968-3709cd90fbb9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gmnoprint:nth-child(1) button",
+      "targets": [
+        ["css=.gmnoprint:nth-child(1) button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='map-id']/div/div/div[16]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Keyboard shortcuts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a319d532-92b0-4415-8e08-2b1b154b7e42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style > div:nth-child(2)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='map-id']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46d249e5-0e2d-4f2b-92c5-093e772996ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style > div:nth-child(2)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='map-id']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec53576d-cca3-464b-abde-71acce530e1b",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-location",
+      "targets": [
+        ["id=submit-location", "id"],
+        ["css=#submit-location", "css:finder"],
+        ["xpath=//button[@id='submit-location']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div[2]/div/div/div/div/section/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'FIND RESTAURANTS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16418465-8cd1-4093-90d2-ea30ac55c866",
+      "comment": "",
+      "command": "click",
+      "target": "css=.when-wrapper",
+      "targets": [
+        ["css=.when-wrapper", "css:finder"],
+        ["xpath=//section[@id='global-header']/header/div[4]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edf02931-dbd3-4537-9aed-b5c62308c7ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box-flex:nth-child(2) > .f-paragraph-medium-font-size",
+      "targets": [
+        ["css=.box-flex:nth-child(2) > .f-paragraph-medium-font-size", "css:finder"],
+        ["xpath=//section[@id='global-header']/header/div[4]/div[2]/div/div[2]/div/div[3]/label[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/label[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'12:45 PM – 1:00 PM')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13c1f51f-9eac-4c91-9b0c-bea929546c23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters-arrow > svg",
+      "targets": [
+        ["css=.filters-arrow > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "60c8f4be-9767-4fea-b04b-23f91d1f4e63",
+      "comment": "",
+      "command": "click",
+      "target": "css=#NEXT_GEN_SORT_TOP_RATED-label > .radio-button",
+      "targets": [
+        ["css=#NEXT_GEN_SORT_TOP_RATED-label > .radio-button", "css:finder"],
+        ["xpath=//label[@id='NEXT_GEN_SORT_TOP_RATED-label']/span", "xpath:idRelative"],
+        ["xpath=//ul[2]/li/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33354a77-475d-4b40-8531-8ea5cde2da66",
+      "comment": "",
+      "command": "click",
+      "target": "css=#has_discount-label > .checkbox-container",
+      "targets": [
+        ["css=#has_discount-label > .checkbox-container", "css:finder"],
+        ["xpath=//label[@id='has_discount-label']/div", "xpath:idRelative"],
+        ["xpath=//ul[2]/li/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32296fa4-2e8e-41d5-afcf-1f56b82b37f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#bangladeshi-195-label > .checkbox-container",
+      "targets": [
+        ["css=#bangladeshi-195-label > .checkbox-container", "css:finder"],
+        ["xpath=//label[@id='bangladeshi-195-label']/div", "xpath:idRelative"],
+        ["xpath=//form[3]/div/ul[2]/li/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bda3998a-e906-4d1a-ae50-a97ee632498a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16.799999237060547)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d82d5b68-7cd6-4b0f-a6f7-fac7a381dbc2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0ba17fd9-8537-4d3a-a3b5-a3dcd58c8da4"]
+  }],
+  "urls": ["https://www.foodpanda.com.bd/"],
+  "plugins": []
+}
